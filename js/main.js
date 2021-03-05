@@ -47,12 +47,12 @@ new Swiper('.comment__swiper', {
     slidesPerView: 1,
 });
 
-
 $(window).scroll(function() {
     var height = $(window).scrollTop();
     if(height > 0){
     $('.header__main').css({'background-color' : 'rgba(94, 93, 93, 0.37)'});
+    $('.header').css({'backdrop-filter' : 'rgba(94, 93, 93, 0.37)'});
     } else{
-    $('.header__main').css({'background-color' : 'transparent'});
+    $('.header__main').css({'background-color' : 'blur(12px)'});
     }
 });
