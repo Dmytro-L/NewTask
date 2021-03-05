@@ -1,0 +1,100 @@
+@import 'variable.scss';
+
+.about {
+    height: 766px;
+    
+
+    // .about__wrapper
+
+    &__wrapper {
+        display: flex;
+        height: 100%;
+    }
+
+    // .about__left-block
+
+    &__left-block {
+        min-width: 547px;
+        height: 100%;
+        background-image: url('../img/charles-deluvio.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        position: relative;
+    }
+
+    // .about__left-bloc-text
+
+    &__left-block-text {
+        color: $textColorWhite;
+        padding: 44px 0 34px 34px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: $moreLightOrange;
+        width: 238px;
+        height: 220px;
+        font-size: 70px;
+        font-family: $PlayfairFont;
+        line-height: 45px;
+        .text{
+            font-family: $Gilroy;
+            letter-spacing: 0.2px;
+            font-size: 30px;
+            line-height: 5px;
+        }
+
+    }
+
+    // .about__block-about
+
+    &__block-about {
+        background-color: white;
+        width: 100%;
+        background-image: url('../img/bedroom-plan.png');
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        display: flex;
+    }
+
+    // .about__block-aboute-container
+
+    &__block-aboute-container {
+        margin: auto;
+    }
+
+    // .about__title
+
+    &__title {
+        margin-top: 8px;
+        font-family: $PlayfairFont;
+        font-size: 40px;
+        line-height: 139.4%;
+        letter-spacing: 0.2px;
+        color: #000000;
+
+    }
+
+    // .about__text
+
+    &__text {
+        margin-top: 27px;
+        font-family: $Gilroy;
+        font-size: 18px;
+        line-height: 139.4%;
+        letter-spacing: 0.2px;
+        color: #7C7C7C;
+        width: 542px;
+    }
+
+    // .about__title-before
+
+    &__title-before {
+        font-family: $Gilroy;
+        font-size: 18px;
+        letter-spacing: 9.7px;
+        text-transform: uppercase;
+        color: $LightOrange;
+    }
+}
+

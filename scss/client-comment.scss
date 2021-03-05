@@ -1,0 +1,118 @@
+
+@import 'variable.scss';
+
+
+.comment {
+    height: 766px;
+    width: 100%;
+    background-image: url('../img/handyman-uses-jackhammer-for-installation-professional-worker-on-the-construction-site-the-concept-of-electrician-and-handyman\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    // .comment__container
+
+    &__container {
+        display: flex;
+        height: 100%;
+    }
+
+    // .comment__block
+
+    &__block {
+        height: 100%;
+        width: 671px;
+        margin: auto;
+        backdrop-filter: blur(12px);
+        .nav{
+            display: flex;
+            width: 200px;
+            justify-content: space-between;
+            align-items: center;
+            left: calc(50% - 100px);
+            position: absolute;
+            bottom: 75px;
+            .prev-arr,
+            .next-arr{
+                @include transition07;}
+            .prev-arr:hover,
+            .next-arr:hover{
+                @include transition07;
+                transform: scale(1.2);
+                -webkit-transform: scale(1.2);
+                -moz-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                -o-transform: scale(1.2);
+}
+            .pagination{
+                    width: 96px;
+                    display: flex;
+                    justify-content: space-between;
+                    .swiper-pagination-bullet{
+                        width: 9px;
+                        height: 9px;
+                        background-color: $LightOrange;
+                        
+}
+            }
+        }
+    }
+
+    // .comment__title-before
+
+    &__title-before {
+        margin-top: 75px;
+        font-family: $Gilroy;
+        font-size: 18px;
+        text-align: center;
+        letter-spacing: 9.7px;
+        text-transform: uppercase;
+        color: $LightOrange;
+    }
+
+    // .comment__title
+
+    &__title {
+        margin-top: 15px;
+        font-family: $PlayfairFont;
+        font-size: 40px;
+        line-height: 139.4%;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: $textColorWhite;
+        
+    }
+
+    // .comment__swiper
+
+    &__swiper {
+        width: 561px;
+        
+    }
+    &__text {
+        margin-top: 25px;
+        padding: 100px 40px 25px 45px;
+        font-family: $Gilroy;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        background: 
+        url('../img/bg.png') 100% 20% no-repeat,
+        
+    }
+
+    // .comment__author
+
+    &__author{
+        font-family: $Gilroy;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: -0.015em;
+        text-align: center;
+        color: $textColorWhite;
+
+        
+    }
+}

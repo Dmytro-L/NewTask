@@ -1,0 +1,112 @@
+.portfolio {
+  background-color: white; }
+  .portfolio__before-title {
+    text-align: center;
+    margin-top: 100px;
+    font-family: "Gilroy";
+    font-size: 18px;
+    letter-spacing: 9.7px;
+    text-transform: uppercase;
+    color: #FF9900; }
+  .portfolio__title {
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    letter-spacing: 0.2px;
+    color: #000000; }
+  .portfolio__block-wrapp {
+    margin-top: 104px;
+    display: flex;
+    background-image: url("../img/two-bedroom-x2--plan 1.png");
+    background-repeat: no-repeat;
+    background-position: 45% 100%;
+    min-width: 0; }
+  .portfolio__name-wrapp {
+    display: flex;
+    width: 100%; }
+  .portfolio__name {
+    margin: auto; }
+  .portfolio__name-title {
+    font-family: "Gilroy";
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.2px;
+    color: #000000; }
+  .portfolio__text {
+    font-family: "Gilroy";
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    width: 504px;
+    margin-top: 24px;
+    margin-bottom: 31px;
+    line-height: 139.4%; }
+  .portfolio__about {
+    margin-bottom: 12px;
+    font-family: "Gilroy";
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 139.4%;
+    letter-spacing: 0.2px;
+    color: #000000; }
+    .portfolio__about span {
+      font-weight: bold; }
+  .portfolio__block {
+    position: relative; }
+    .portfolio__block .swiper-container {
+      width: 541px; }
+      .portfolio__block .swiper-container .swiper-wrapper .swipers-lide {
+        width: 539px; }
+    .portfolio__block .background {
+      width: 100%;
+      background-color: #FF9900;
+      height: 94px;
+      display: flex;
+      justify-content: space-around; }
+      .portfolio__block .background .arrow {
+        width: 84px;
+        margin: auto 0;
+        justify-content: space-between;
+        display: flex; }
+        .portfolio__block .background .arrow .prev,
+        .portfolio__block .background .arrow .next {
+          transition: all .7s;
+          -webkit-transition: all .7s;
+          -moz-transition: all .7s;
+          -ms-transition: all .7s;
+          -o-transition: all .7s; }
+        .portfolio__block .background .arrow .prev:hover,
+        .portfolio__block .background .arrow .next:hover {
+          cursor: pointer;
+          transform: scale(1.3);
+          -webkit-transform: scale(1.3);
+          -moz-transform: scale(1.3);
+          -ms-transform: scale(1.3);
+          -o-transform: scale(1.3);
+          transition: all .7s;
+          -webkit-transition: all .7s;
+          -moz-transition: all .7s;
+          -ms-transition: all .7s;
+          -o-transition: all .7s; }
+      .portfolio__block .background .bullets {
+        margin: auto 0; }
+        .portfolio__block .background .bullets .swiper-pagination {
+          width: 96px;
+          display: flex;
+          justify-content: space-between; }
+          .portfolio__block .background .bullets .swiper-pagination .swiper-pagination-bullet {
+            width: 9px;
+            height: 9px;
+            background-color: white; }
+    .portfolio__block .mini-slider {
+      position: absolute;
+      top: 0;
+      left: -110px; }
+      .portfolio__block .mini-slider__wrapper {
+        display: block; }
+      .portfolio__block .mini-slider .swiper-slide-thumb-active {
+        display: none; }
+      .portfolio__block .mini-slider__slide img {
+        width: 102px;
+        height: 105px;
+        margin: 0 0 7px 0; }

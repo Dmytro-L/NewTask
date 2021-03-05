@@ -1,0 +1,129 @@
+@import 'variable.scss';
+
+.form {
+    width: 100%;
+    height: 370px;
+    background-color: $moreLightOrange;
+    display: flex;
+
+    // .form_container
+
+    &_container {
+        margin: auto;
+    }
+
+    // .form__title
+
+    &__title {
+        font-family: $PlayfairFont;
+        font-weight: bold;
+        font-size: 30px;
+        color: $textColorWhite;
+        
+    }
+
+    // .form__text
+
+    &__text {
+        margin-top: 20px;
+        font-family: $Gilroy;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.005em;
+        color: $textColorWhite;
+        
+    }
+
+
+
+    // .form__block-input
+
+    &__block-input {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        .name::placeholder,
+        .mail::placeholder{
+            font-family: $Gilroy;
+            color: rgba(255, 255, 255, 0.72);
+            font-size: 16px;
+        }
+        .name,
+        .mail {
+            color: white;
+            height: 20px;
+            background-color: transparent;
+            width: 304px;
+            border-bottom: 0.5px solid #FFFFFF;
+        }
+    }
+    
+    .textarea-block:hover{
+        label{
+            display: none;
+        }
+    }
+    .textarea-block{
+        margin-top: 40px;
+        position: relative;
+    label{
+        position: absolute;
+        bottom: 10px;
+        font-family: $Gilroy;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.07em;
+        color: rgba(255, 255, 255, 0.72);
+        
+
+    }
+    textarea{
+            overflow: hidden;
+            resize: none;
+            color: white;
+            font-size: 16px;
+            max-height: 150px;
+            height: 20px;
+            background-color: transparent;
+            width: 705px;
+            border-bottom: 0.5px solid #FFFFFF;
+            padding-bottom: 25px;
+    }
+}
+.textarea-block:focus{
+    #textar{
+        border-bottom: 5px solid #FFFFFF;
+    }
+}
+.textarea-block:hover{
+    label{
+        display: none;
+    }
+}
+
+    // .form__submit
+
+    &__submit {
+            margin-top: 40px;
+            width: 128px;
+            height: 42px;
+            background-color: #FFFFFF;
+            font-family: $Gilroy;
+            font-weight: bold;
+            font-size: 16px;
+            color: $LightOrange;
+            @include transition07;
+            &:hover{
+            background-color: transparent;
+            color:white;
+            transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            @include transition07;
+            box-shadow: 0 0 1px 0  white;
+            }
+    }
+}
+

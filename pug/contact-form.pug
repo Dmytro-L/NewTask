@@ -1,0 +1,13 @@
+section.form#contact
+    .form_container 
+        h2.form__title Зв'яжіться з нами
+        p.form__text Залиште номер телефону, і ми зв'яжемося з вами на протязі 5 хвилин.
+        form.form__main(action="#")
+            .form__block-input
+                input.name(type="text" placeholder="Ім’я")
+                input.mail(type="e-mail" placeholder="E-mail")
+            .textarea-block    
+                label(for="textar") Ваше повідомлення..
+                textarea#textar
+            button.form__submit Надіслати
+            

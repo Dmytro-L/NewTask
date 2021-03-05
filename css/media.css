@@ -1,0 +1,175 @@
+@media (max-width: 1300px) {
+  .home__bottom {
+    padding: 0 10px; }
+  .about__left-block {
+    min-width: 33%; }
+  .we-work {
+    padding-left: 25px; }
+  .portfolio__text {
+    width: 350px; }
+  .portfolio__block {
+    width: 40%; }
+  .portfolio .portfolio__block .swiper-container {
+    width: 100%; }
+  .footer__main {
+    padding: 0 10px; } }
+
+@media (max-width: 1024px) {
+  .home__main {
+    padding-left: 15px; }
+  .home__item {
+    padding-right: 20px; }
+  .home__item-text {
+    font-size: 16px; }
+  .about__block-aboute-container {
+    padding: 0 15px; }
+  .about__text {
+    width: 100%;
+    padding: 0 10px; }
+  .we-work {
+    display: none; }
+  .mini-slider {
+    display: none; }
+  .form_container {
+    padding: 0 10px; }
+  .form__main {
+    width: 100%;
+    padding: 0 10px; }
+    .form__main .textarea-block textarea {
+      width: 100%; }
+  .form__block-input {
+    display: block;
+    width: 100%; }
+    .form__block-input input {
+      margin-top: 30px;
+      display: block; }
+  .menu {
+    width: 100%;
+    padding: 0 10px; } }
+
+@media (max-width: 768px) {
+  .form {
+    height: 400px; }
+    .form_container {
+      width: 100%;
+      padding: 0 10px; }
+    .form__main {
+      width: 100%;
+      padding: 0 10px; }
+      .form__main .textarea-block textarea {
+        width: 100%; }
+    .form__block-input {
+      display: block; }
+      .form__block-input .mail,
+      .form__block-input .name {
+        width: 100%;
+        margin-top: 30px;
+        display: block; }
+  .about__left-block {
+    display: none; }
+  .home {
+    height: calc(100vh + 80px); }
+    .home__title {
+      font-size: 25px; }
+    .home__text {
+      font-size: 14px; }
+    .home__bottom {
+      display: none; }
+  .comment__block {
+    width: 100%; }
+  .comment__title-before {
+    margin-top: 10px; }
+  .comment__title {
+    margin-top: 10px; }
+  .comment__swiper {
+    width: 100%; }
+  .comment__slider {
+    width: 100%; }
+  .comment__text {
+    margin-top: 0; }
+  .portfolio__block-wrapp {
+    display: block; }
+  .portfolio__name {
+    padding: 0 11px; }
+  .portfolio__text {
+    width: 100%; }
+  .portfolio__block {
+    margin: 0 auto;
+    width: 50%; }
+  .portfolio .portfolio__block .swiper-container {
+    width: 100%; }
+  .header__top {
+    display: none; }
+  .header .menu.action {
+    padding: 0;
+    backdrop-filter: blur(24px);
+    top: 134px;
+    transition: all .7s;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -ms-transition: all .7s;
+    -o-transition: all .7s;
+    height: 100vh;
+    width: 100%;
+    margin-left: -10px; }
+    .header .menu.action__list {
+      height: 100%; }
+  .header .menu {
+    position: absolute;
+    top: -300%;
+    transition: all .7s;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -ms-transition: all .7s;
+    -o-transition: all .7s; }
+    .header .menu__list {
+      text-align: center;
+      display: block; }
+    .header .menu__list-item-link {
+      padding-bottom: 5px;
+      display: inline-block;
+      overflow: hidden; }
+      .header .menu__list-item-link::after {
+        bottom: 0; }
+  .header .burger {
+    display: block; }
+  .about__left-block-text {
+    display: none; }
+  html {
+    margin-right: -10px; }
+  .footer {
+    text-align: center; }
+    .footer__main {
+      padding: 0 10px; }
+    .footer__wrapp {
+      display: block;
+      padding: 0 20px; }
+    .footer__social-item-wrapp {
+      margin: 0 auto;
+      margin-top: 10px;
+      display: flex;
+      width: 150px;
+      justify-content: space-between; } }
+
+@media (max-width: 650px) {
+  .header__phone {
+    margin-right: 10px; }
+    .header__phone p {
+      margin-left: 10px;
+      font-size: 14px; }
+  .header__social {
+    width: 80px; }
+    .header__social a {
+      margin-left: 3px; }
+  .portfolio__block-wrapp {
+    display: block; }
+  .portfolio__name {
+    padding: 0 11px; }
+  .portfolio__text {
+    width: 100%; }
+  .portfolio__block {
+    width: 100%; }
+  .portfolio .portfolio__block .swiper-container {
+    width: 100%; }
+  .portfolio__slider .swiper-slide img {
+    width: 100%; } }

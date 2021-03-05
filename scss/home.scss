@@ -1,0 +1,142 @@
+@import 'variable.scss';
+
+.home {
+    width: 100%;
+    background-image: url('../img/electrician-installer-with-tool-his-hands-working-with-cable-construction-site\ 1.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+    // .home__block
+
+    &__block{
+        height: 100%;
+        display: flex;
+    }
+
+    // .home_title
+
+    &__title {
+        font-family: $PlayfairFont;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 139.4%;
+    }
+
+    // .home__main
+
+    &__main {
+        margin: auto;
+        color: $textColorWhite;
+    }
+
+    // .home__text
+
+    &__text {
+        margin-top: 29px;
+        font-family: $Gilroy;
+        font-size: 18px;
+        line-height: 139.4%;
+        letter-spacing: 0.2px;
+        opacity: .8;
+    }
+
+    // .home__button
+
+    &__button {
+        width: 166px;
+        height: 46px;
+        margin-top: 60px;
+        background: $LightOrange;
+        box-shadow: 1px 1px 18px 4px rgba(255, 153, 0, 0.32);
+        @include transition07;
+    &:hover{
+        background-color: transparent;
+        box-shadow: inset 1px 1px 18px 4px rgba(255, 153, 0, 0.32);
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        @includetransition07:;
+}
+    }
+
+    // .home__button-text
+
+    &__button-text {
+        color: $textColorWhite;
+        letter-spacing: -0.015em;
+        font-family: $Gilroy;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    // .home__bottom
+
+    &__bottom {
+        background: rgba(255, 255, 255, 0.1);
+        height: 169px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        backdrop-filter: blur(16px);
+
+
+    }
+
+    // .home__container
+
+    &__container {
+        width: 1280px;
+        margin: auto;
+    }
+
+    // .home__items
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // .home__item
+
+    &__item {
+        padding-right: 45px;
+        height: 90px;
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: right;
+        display: flex;
+        &:nth-child(1){
+            background-image: url('../img/calc.png');
+        }
+        &:nth-child(2){
+            background-image: url('../img/money.png');
+        }
+        &:nth-child(3){
+            background-image: url('../img/list.png');
+        }
+        &:nth-child(4){
+            background-image: url('../img/time.png');
+        }
+        &:nth-child(5){
+            background-image: url('../img/chek.png');
+        }
+    }
+
+    // .home__item-text
+
+    &__item-text {
+        font-family: $Gilroy;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 139.4%;
+        letter-spacing: 0.2px;
+        color: $textColorWhite;
+        margin: auto 0;
+
+    }
+}

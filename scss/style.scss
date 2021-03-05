@@ -1,0 +1,53 @@
+
+
+
+// Сброс стилей
+
+@import "../css/0.css";
+
+    // Подключаем шрифты
+
+@import "../css/fonts.css";
+
+    // Переменные, Mixins
+
+$Gilroy: "Gilroy";
+
+@mixin transition07 {
+    transition: all .7s;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -ms-transition: all .7s;
+    -o-transition: all .7s;  
+}
+
+
+body{
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-right: -100px;
+}
+
+
+// Подключаем стили
+
+    // Шапка
+
+@import 'variable.scss';
+@import "header.scss";
+@import "home.scss";
+@import "about.scss";
+@import "we-work.scss";
+@import "portfolio.scss";
+@import "client-comment.scss";
+@import "contact-form.scss";
+@import "footer.scss";
+
+// Адаптив
+
+@import "media.scss";
+
+
+

@@ -1,0 +1,90 @@
+.home {
+  width: 100%;
+  background-image: url("../img/electrician-installer-with-tool-his-hands-working-with-cable-construction-site 1.png");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+  .home__block {
+    height: 100%;
+    display: flex; }
+  .home__title {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 139.4%; }
+  .home__main {
+    margin: auto;
+    color: #fff; }
+  .home__text {
+    margin-top: 29px;
+    font-family: "Gilroy";
+    font-size: 18px;
+    line-height: 139.4%;
+    letter-spacing: 0.2px;
+    opacity: .8; }
+  .home__button {
+    width: 166px;
+    height: 46px;
+    margin-top: 60px;
+    background: #FF9900;
+    box-shadow: 1px 1px 18px 4px rgba(255, 153, 0, 0.32);
+    transition: all .7s;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -ms-transition: all .7s;
+    -o-transition: all .7s; }
+    .home__button:hover {
+      background-color: transparent;
+      box-shadow: inset 1px 1px 18px 4px rgba(255, 153, 0, 0.32);
+      transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      @includetransition07 :; }
+  .home__button-text {
+    color: #fff;
+    letter-spacing: -0.015em;
+    font-family: "Gilroy";
+    font-weight: bold;
+    font-size: 16px; }
+  .home__bottom {
+    background: rgba(255, 255, 255, 0.1);
+    height: 169px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    backdrop-filter: blur(16px); }
+  .home__container {
+    width: 1280px;
+    margin: auto; }
+  .home__items {
+    display: flex;
+    justify-content: space-between; }
+  .home__item {
+    padding-right: 45px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+    display: flex; }
+    .home__item:nth-child(1) {
+      background-image: url("../img/calc.png"); }
+    .home__item:nth-child(2) {
+      background-image: url("../img/money.png"); }
+    .home__item:nth-child(3) {
+      background-image: url("../img/list.png"); }
+    .home__item:nth-child(4) {
+      background-image: url("../img/time.png"); }
+    .home__item:nth-child(5) {
+      background-image: url("../img/chek.png"); }
+  .home__item-text {
+    font-family: "Gilroy";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 139.4%;
+    letter-spacing: 0.2px;
+    color: #fff;
+    margin: auto 0; }

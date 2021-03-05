@@ -1,0 +1,245 @@
+@import 'variable.scss';
+
+
+
+.lock{
+    overflow: hidden;
+}
+
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+
+    .burger{
+        width: 30px;
+        height: 10px;
+        position: relative;
+        
+
+
+
+
+
+
+        &::after,
+        &::before{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: $LightOrange;
+            border-radius: 15%;
+            -webkit-border-radius: 15%;
+            -moz-border-radius: 15%;
+            -ms-border-radius: 15%;
+            -o-border-radius: 15%;
+            @include transition07;
+}
+        &::after{
+            top: 0;
+        }
+        &.active::after{
+            top: 4px;
+            transform: rotate(225deg);
+            -webkit-transform: rotate(225deg);
+            -moz-transform: rotate(225deg);
+            -ms-transform: rotate(225deg);
+            -o-transform: rotate(225deg);
+            @include transition07;
+}
+        &::before{
+            bottom: 0;
+        }
+        &.active::before{
+            bottom: 4px;
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+            @include transition07;
+}
+    }
+    
+
+    .burger{
+        display: none;
+    }
+
+    // .header__top
+
+    &__top {
+        height: 54px;
+        background: rgba(0, 0, 0, 0.31);
+        width: 100%;
+        display: flex;
+        .container{
+            width: 1280px;
+            margin: 0 auto ;
+            display: flex;
+
+        }
+
+
+    }
+
+    // .header__contact
+
+    &__contact {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: flex-end;
+
+    }
+
+    // .header__phone
+
+    &__phone {
+
+    color: $textColorWhite;
+    display: flex;
+    font-family: $Gilroy;
+    font-size: 16px;
+    margin-right: 82.5px;
+        p{
+            margin-left: 47px;
+        }
+
+    }
+
+    // .header__social
+
+    &__social {
+
+        margin-right: 10px;
+
+    }
+
+    // .header__social-link
+
+    &__social-link {
+
+        margin-left: 22.5px;
+        @include transition07;
+
+        img:hover{
+            transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            @include transition07;
+}
+
+    }
+
+    // .header__main
+
+    &__main {
+        display: flex;
+        width: 100%;
+        height: 80px;
+        .container{
+            padding: 0 10px;
+            display: flex;
+            width: 1280px;
+            margin: 0 auto;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+
+    }
+
+    // .header__button
+
+    &__button {
+        min-width: 166px;
+        height: 37px;
+        border: 2px solid $LightOrange;
+        background-color: transparent;
+        @include transition07;
+        &:hover{
+            border: 2px solid $textColorWhite;
+            background-color: $LightOrange;
+            @include transition07;
+            .header__button-text{
+                color: $textColorWhite;
+            }
+        }
+    }
+    
+
+    // .header__button-text
+
+    &__button-text {
+        font-family: $Gilroy;
+        font-weight: bold;
+        font-size: 16px;
+        letter-spacing: -0.015em;
+        
+        color: $LightOrange;
+        
+    }
+}
+.menu {
+    width: 682px;
+
+    // .menu__list
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    // .menu__list-item
+
+    &__list-item {
+
+        margin-top: 8px;
+        padding-bottom: 8px;
+        overflow: hidden;
+
+    }
+
+    // .menu__list-item-link
+
+    &__list-item-link {
+
+        font-size: 18px;
+        color: $textColorWhite;
+        font-family: $Gilroy;
+        letter-spacing: 0.07em;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            bottom: -7px;
+            width: 100%;
+            height: 3px;
+            background-color: $LightOrange;
+            @include transition07;
+            border-radius: 15%;
+            -webkit-border-radius: 15%;
+            -moz-border-radius: 15%;
+            -ms-border-radius: 15%;
+            -o-border-radius: 15%;
+        }
+        &:hover::after{
+            transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);
+            -moz-transform: translateX(-100%);
+            -ms-transform: translateX(-100%);
+            -o-transform: translateX(-100%);
+            @include transition07;
+        }
+        &:hover{
+            color: $LightOrange;
+            @include transition07;
+        }
+    }
+}

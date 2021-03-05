@@ -1,0 +1,135 @@
+@import 'variable.scss';
+
+.footer {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+
+    // .footer__main
+
+    &__main {width: 100%;
+        height: 100%;
+        font-family: $Gilroy;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 25px;
+        color: $textColorWhite;
+        display: flex;
+    }
+
+    // .footer__wrapp
+
+    &__wrapp {
+        margin: auto;
+        padding-left: 82px;
+        width: 1277px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+
+    // .footer__first-column-text
+
+    &__first-column-text {
+        margin-top: 15px;
+        opacity: .8;
+
+    }
+
+    // .footer__adress
+
+    &__adress {
+        .country{
+            opacity: 1;
+        }
+        .address{
+            opacity: .8;
+        }
+    }
+
+    // .footer__phone
+
+    &__phone {
+        margin-top: 40px;
+        opacity: .8;
+    }
+
+
+    // .footer__social-item-wrapp
+
+    &__social-item-wrapp {
+        
+        img{
+            display: block;
+            margin-bottom: 25px;
+            @include transition07;
+            &:hover{
+                transform: scale(1.4);
+                -webkit-transform: scale(1.4);
+                -moz-transform: scale(1.4);
+                -ms-transform: scale(1.4);
+                -o-transform: scale(1.4);
+                @include transition07;
+            }
+        }
+    }
+
+    // .footer__line
+
+    &__line {
+        width: 100%;
+        height: 1px;
+        background-color: rgb(68, 68, 68);;
+    }
+
+    // .footer__bottom
+
+    &__bottom {
+        width: 100%;
+        height: 48px;
+        display: flex;
+        background-color: black;
+    }
+
+
+    //.footer__wrapp
+
+    &__wrapp{
+    width: 1277px;
+    margin: auto;
+    }
+
+    // .footer__bottom-text
+
+    &__bottom-text {
+        font-family: $Gilroy;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.005em;
+        color: rgba(255, 255, 255, 0.29);
+    }
+}
+.menu-footer {
+
+    // .menu-footer__list
+
+    &__list {
+    }
+
+    // .menu-footer__item
+
+    &__item {
+        margin-bottom: 20px;
+        a{
+            color: $textColorWhite;
+            opacity: .8;
+            @include transition07;
+            &:hover{
+                opacity: 1;
+                @include transition07;
+            }
+            
+        }
+    }
+}

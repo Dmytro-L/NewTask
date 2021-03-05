@@ -1,0 +1,13 @@
+$Gilroy: "Gilroy";
+$textColorWhite: #fff;
+$LightOrange: #FF9900;
+$PlayfairFont: "Playfair Display";
+$moreLightOrange: #FFB800;
+
+@mixin transition07 {
+    transition: all .7s;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -ms-transition: all .7s;
+    -o-transition: all .7s;  
+}

@@ -1,0 +1,60 @@
+.about {
+  height: 766px; }
+  .about__wrapper {
+    display: flex;
+    height: 100%; }
+  .about__left-block {
+    min-width: 547px;
+    height: 100%;
+    background-image: url("../img/charles-deluvio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    position: relative; }
+  .about__left-block-text {
+    color: #fff;
+    padding: 44px 0 34px 34px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #FFB800;
+    width: 238px;
+    height: 220px;
+    font-size: 70px;
+    font-family: "Playfair Display";
+    line-height: 45px; }
+    .about__left-block-text .text {
+      font-family: "Gilroy";
+      letter-spacing: 0.2px;
+      font-size: 30px;
+      line-height: 5px; }
+  .about__block-about {
+    background-color: white;
+    width: 100%;
+    background-image: url("../img/bedroom-plan.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    display: flex; }
+  .about__block-aboute-container {
+    margin: auto; }
+  .about__title {
+    margin-top: 8px;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    line-height: 139.4%;
+    letter-spacing: 0.2px;
+    color: #000000; }
+  .about__text {
+    margin-top: 27px;
+    font-family: "Gilroy";
+    font-size: 18px;
+    line-height: 139.4%;
+    letter-spacing: 0.2px;
+    color: #7C7C7C;
+    width: 542px; }
+  .about__title-before {
+    font-family: "Gilroy";
+    font-size: 18px;
+    letter-spacing: 9.7px;
+    text-transform: uppercase;
+    color: #FF9900; }
